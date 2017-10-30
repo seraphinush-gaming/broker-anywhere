@@ -7,19 +7,25 @@ module.exports = function BrokerAnywhere(dispatch){
 	try {
 		const Command = require('command')
 		const command = Command(dispatch)
+		// NA
 		command.add('broker', () => {
 			broker()
-			send(`[broker-anywhere] : Summoned.`)
+			send(`<font color="#56B4E9">Summoned.</font>`)
+		})
+		// KR
+		command.add('거래', () => {
+			broker()
+			send(`<font color="#56B4E9">소환됬습니다.</font>`)
 		})
 		function send(msg) {
-			command.message(`<font color="#FFFFFF">` + msg + `</font>`)
+			command.message(`[broker-anywhere] : ` + msg)
 		}
 	} catch (e) {
 		console.log(`[ERROR] -- broker-anywhere module --`)
     }
 
 	// via chat
-	// implemented in Command module
+	// implemented in command module
 	/* 
 	const chatHook = event => {
         if(!event.message.toLowerCase().includes('!broker')) return
