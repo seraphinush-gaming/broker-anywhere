@@ -2,7 +2,7 @@
 tera-proxy module to open broker anywhere
 
 ## Dependency
-`Command` module
+- `Command` module
 
 ## Usage
-`broker`
+- `broker`
