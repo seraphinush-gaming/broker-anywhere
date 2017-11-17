@@ -5,4 +5,13 @@ tera-proxy module to open broker anywhere
 - `Command` module
 
 ## Usage
-- `broker`
+### `broker`
+
+## Info
+- Author : [wuaw](https://github.com/wuaw)
+
+## Changelog 
+### 1.1
+- Personalized code aesthetics
+### 1.0
+- Initial fork
