@@ -2,7 +2,7 @@
 // - S_NPC_MENU_SELECT
 
 module.exports = function BrokerAnywhere(dispatch){
-    
+	
     // command
 	try {
 		const Command = require('command')
@@ -32,13 +32,13 @@ module.exports = function BrokerAnywhere(dispatch){
 		broker()
         return false
     }
-    dispatch.hook('C_CHAT', 1, chatHook)
-	dispatch.hook('C_WHISPER', 1, chatHook) 
+    dispatch.hook('C_CHAT', chatHook)
+	dispatch.hook('C_WHISPER', chatHook) 
 	*/
 	 
     // code
     function broker() {
-        dispatch.toClient('S_NPC_MENU_SELECT', 1, { type: 28 })
+        dispatch.toClient('S_NPC_MENU_SELECT', { type: 28 })
 	}
 
 }
