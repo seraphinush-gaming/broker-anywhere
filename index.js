@@ -1,6 +1,8 @@
 // OPCODE REQUIRED :
 // - S_NPC_MENU_SELECT
 
+// Version 1.2r01
+
 module.exports = function BrokerAnywhere(dispatch){
 	
     // command
