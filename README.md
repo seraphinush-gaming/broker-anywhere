@@ -10,7 +10,9 @@ tera-proxy module to open broker anywhere
 ## Info
 - Original author : [wuaw](https://github.com/wuaw)
 
-## Changelog 
+## Changelog
+### 1.3
+- Update code aesthetics
 ### 1.2
 - Removed protocol version restriction
 ### 1.1
