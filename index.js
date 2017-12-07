@@ -1,10 +1,13 @@
 // OPCODE REQUIRED :
 // - S_NPC_MENU_SELECT
 
-// Version 1.3 r:01
+// Version 1.3 r:02
 
 module.exports = function BrokerAnywhere(d){
-	
+
+    // code
+    function broker() { d.toClient('S_NPC_MENU_SELECT', { type: 28 }) }
+
     // command
 	try {
 		const Command = require('command')
@@ -25,22 +28,5 @@ module.exports = function BrokerAnywhere(d){
 	} catch (e) {
 		console.log(`[ERROR] -- broker-anywhere module --`)
     }
-
-	// via chat
-	// implemented in command module
-	/* 
-	const chatHook = e => {
-        if(!e.message.toLowerCase().includes('!broker')) return
-		broker()
-        return false
-    }
-    d.hook('C_CHAT', chatHook)
-	d.hook('C_WHISPER', chatHook) 
-	*/
-	 
-    // code
-    function broker() {
-        d.toClient('S_NPC_MENU_SELECT', { type: 28 })
-	}
 
 }
