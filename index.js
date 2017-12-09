@@ -1,7 +1,7 @@
 // OPCODE REQUIRED :
 // - S_NPC_MENU_SELECT
 
-// Version 1.3 r:02
+// Version 1.31 r:00
 
 module.exports = function BrokerAnywhere(d){
 
@@ -22,11 +22,7 @@ module.exports = function BrokerAnywhere(d){
 			broker()
 			send(`<font color="#56B4E9">소환됬습니다.</font>`)
 		})
-		function send(msg) {
-			command.message(`[broker-anywhere] : ` + msg)
-		}
-	} catch (e) {
-		console.log(`[ERROR] -- broker-anywhere module --`)
-    }
+		function send(msg) { command.message(`[broker-anywhere] : ` + msg) }
+	} catch (e) { console.log(`[ERROR] -- broker-anywhere module --`) }
 
 }
