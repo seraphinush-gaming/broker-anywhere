@@ -1,7 +1,7 @@
 // OPCODE REQUIRED :
 // - S_NPC_MENU_SELECT
 
-// Version 1.32 r:00
+// Version 1.33 r:00
 
 module.exports = function BrokerAnywhere(d){
 
@@ -12,17 +12,17 @@ module.exports = function BrokerAnywhere(d){
 	try {
 		const Command = require('command')
 		const command = Command(d)
+			// KR
+			command.add('거래', () => {
+				broker()
+				send(`소환됬습니다.`.clr('56B4E9'))
+			})
 		// NA
 		command.add('broker', () => {
 			broker()
 			send(`Summoned.`.clr('56B4E9'))
 		})
-		// KR
-		command.add('거래', () => {
-			broker()
-			send(`소환됬습니다.`.clr('56B4E9'))
-		})
-		function send(msg) { command.message(`[broker-anywhere] : ` + msg) }
+		function send(msg) { command.message(`[broker-anywhere] : ` + [...arguments].join('\n\t - ')) }
 	} catch (e) { console.log(`[ERROR] -- broker-anywhere module --`) }
 
 }
