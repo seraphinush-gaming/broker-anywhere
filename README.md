@@ -5,7 +5,7 @@ tera-proxy module to open broker anywhere
 - `Command` module
 
 ## Usage
-### `broker`
+### `broker` · `거래`
 
 ## Info
 - Original author : [wuaw](https://github.com/wuaw)
@@ -13,6 +13,8 @@ tera-proxy module to open broker anywhere
 ## Changelog
 <details>
 
+    1.35
+    - Simplified code
     1.34
     - Updated name and font color
     1.33
