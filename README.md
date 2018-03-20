@@ -13,6 +13,8 @@ tera-proxy module to open broker anywhere
 ## Changelog
 <details>
 
+    1.36
+    - Added auto-update support
     1.35
     - Simplified code
     1.34
