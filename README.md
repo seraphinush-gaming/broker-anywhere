@@ -1,4 +1,4 @@
-# command-broker
+# cmd-broker
 tera-proxy module to open broker anywhere
 
 ## Dependency
