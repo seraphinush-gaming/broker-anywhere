@@ -9,6 +9,7 @@ tera-proxy module to open broker anywhere
 
 ## Info
 - Original author : [wuaw](https://github.com/wuaw)
+- **Support seraph via paypal donations, thanks in advance : [paypal](https://www.paypal.me/seraphinush)**
 
 ## Changelog
 <details>
