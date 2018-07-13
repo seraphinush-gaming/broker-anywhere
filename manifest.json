@@ -1,9 +1,4 @@
 {
-    "files": {
-        "index.js": "ec33c8f691c3cb480a364d80100d8aadeda4ffd13e59e95ad4f91697cef875ac",
-        "module.json": "1de36111da809837658c61e8beca240ca8fa4ac1ae00ee8d5147e22a68894a9e"
-    },
-    "defs": {
-        "S_NPC_MENU_SELECT": 1
-    }
+    "files": { "index.js": "3548fed6c5d80bba2b61caa4c210849e761383a0ed86d89bf53efc5f0b094f06" },
+    "defs": { "S_NPC_MENU_SELECT": 1 }
 }
