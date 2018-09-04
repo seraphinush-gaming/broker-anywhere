@@ -1,11 +1,11 @@
-// Version 1.37 r:00
+// Version 1.38 r:00
 
-const Command = require('command')
-
-module.exports = function CmdBroker(d){
-	const command = Command(d)
+module.exports = function CmdBroker(m){
+	const cmd = m.command || m.require.command;
 
     // command
-	command.add(['broker', '거래'], () => { d.send('S_NPC_MENU_SELECT', 1, { type: 28 }) })
+	cmd.add(['broker', '거래'], { 
+		$none() { m.send('S_NPC_MENU_SELECT', 1, { type: 28 }); } 
+	})
 
 }

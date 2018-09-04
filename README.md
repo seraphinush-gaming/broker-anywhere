@@ -2,7 +2,7 @@
 tera-proxy module to open broker anywhere
 
 ## Dependency
-- `Command` module
+- `command` module
 
 ## Usage
 - __`broker` · `거래`__
@@ -14,6 +14,9 @@ tera-proxy module to open broker anywhere
 ## Changelog
 <details>
 
+    1.38
+    - Removed `command` require()
+    - Updated to `mod.command`
     1.37
     - Updated
     1.36
