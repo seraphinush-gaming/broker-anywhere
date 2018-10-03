@@ -1,0 +1,5 @@
+{
+	"disableAutoUpdate": false,
+    "options": { "niceName": "cmd-broker" },
+    "servers": ["https://raw.githubusercontent.com/ylennia-archives/cmd-broker/master/"]
+}
