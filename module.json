@@ -1,6 +1,6 @@
 {
     "disableAutoUpdate": false,
     "options": { "niceName": "cmd-broker" },
-    "servers": ["https://raw.githubusercontent.com/seraphinush-gaming/cmd-broker/master/"],
-    "supportUrl": "https://github.com/seraphinush-gaming/cmd-broker/issues"
+    "servers": ["https://raw.githubusercontent.com/ylennia-archives/cmd-broker/master/"],
+    "supportUrl": "https://github.com/ylennia-archives/cmd-broker/issues"
 }
