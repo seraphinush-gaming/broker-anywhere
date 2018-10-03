@@ -1,6 +1,9 @@
 # cmd-broker
 tera-proxy module to open broker anywhere
 
+## Auto-update guide
+- Create a folder called `cmd-broker` in `tera-proxy/bin/node_modules` and download [module.json](https://raw.githubusercontent.com/ylennia-archives/cmd-broker/master/module.json) (right-click save link as...) into the folder
+
 ## Dependency
 - `command` module
 
